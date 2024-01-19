@@ -1,0 +1,52 @@
+export const quiz = {
+    topic: 'Javascript',
+    level: 'Beginner',
+    totalQuestions: 4,
+    perQuestionScore: 5,
+    questions: [
+      {
+        question:  "In digital electronics, what is the fundamental unit used for storing and processing data?",
+        choices: [ "Flip-Flop",
+         "Binary Search",
+         "Normalization",
+        "Data Encryption",],
+        type: 'MCQs',
+        correctAnswer:  "Flip Flop",
+      },
+      {
+        question: "Which programming language is commonly used for simulating digital circuits in digital electronics?",
+        choices: ['java', 'c', 'VHDl', 'None of the above'],
+        type: 'MCQs',
+        correctAnswer: 'VHDL',
+      },
+      {
+        question: "What is the basic building block of digital circuits in the context of digital electronics?",
+        choices: [ "Array",
+         "Linked List",
+         "Gate",
+        "Hash Table",
+],
+        type: 'MCQs',
+        correctAnswer: 'Gate',
+      },
+      {
+        question:  "What is the primary function of a digital logic diagram in digital electronics?",
+        choices: [ "Sorting Elements",
+         "Logic Operations",
+         "Data Organization",
+         "Optimal Solution Finding",],
+        type: 'MCQs',
+        correctAnswer: 'Logic Operation',
+      },
+      {
+        question:  "Which digital electronics operation is commonly used for performing logical operations on binary numbers?",
+        choices: [  "Merge Sort",
+         "Projection",
+         "Logic Gate",
+        "Insertion Sort",],
+        type: 'MCQs',
+        correctAnswer: 'Logic Gate',
+      },
+    ],
+  }
+  
